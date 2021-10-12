@@ -12,6 +12,10 @@ import {LoginComponent} from "./login/login.component";
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import {environment} from '../environments/environment';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
@@ -32,6 +36,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     MatInputModule,
     MatButtonModule,
     MatCardModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatListModule,
+    MatSidenavModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
